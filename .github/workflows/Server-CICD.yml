@@ -1,4 +1,4 @@
-name: Server CI
+name: Server CI/CD
 
 on:
   push:
@@ -25,3 +25,11 @@ jobs:
           file: ./Server/Dockerfile.Server
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/server-repo:latest
+      - name: Send Slack notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_TITLE: Deployment Notification
+          SLACK_TEXT: |
+            Repository: ${{ github.repository }}
+            Commit: ${{ github.sha }}  
