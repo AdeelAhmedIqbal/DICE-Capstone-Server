@@ -8,3 +8,6 @@
 # Part 4: Setting up CI/CD Pipelines
 ## Create workflow files
 ![image](https://github.com/AdeelAhmedIqbal/DICE-Capstone-Server/assets/62285793/c5eaaccf-a21d-459c-8a45-dd1d4510f065)
+
+## Create Action Secrets
+![image](https://github.com/AdeelAhmedIqbal/DICE-Capstone-Server/assets/62285793/3552064a-1347-41f3-9803-313280e04df7)
