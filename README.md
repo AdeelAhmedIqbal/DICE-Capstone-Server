@@ -14,6 +14,7 @@
 
 ## 4.3 - Run the GitHub workflow (Server-CI):
 ![image](https://github.com/AdeelAhmedIqbal/DICE-Capstone-Server/assets/62285793/faa3cc0d-3d1d-40f4-8f6b-0783377bd15d)
+
 ## 4.4 - Latest image pushed successfully to Docker Hub repository via GitHub actions:
 ![image](https://github.com/AdeelAhmedIqbal/DICE-Capstone-Server/assets/62285793/c7c58cc5-f2fa-4e13-ae3e-8c40ee1cc9b1)
 
